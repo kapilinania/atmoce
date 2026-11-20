@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="All ATMOCE Home and Kitchen Appliances.">
+  <title>All Products | ATMOCE - Applying Innovation</title>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23fef3c7'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='%23b45309' font-family='Arial, sans-serif' font-weight='800' font-size='36'%3EA%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="nav-container">
+      <a href="index.html#home" class="logo">
+        <span class="logo-name">ATMOCE<small>APPLYING INNOVATION</small></span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="index.html#home" class="nav-link">Home</a>
+
+        <div class="nav-item">
+          <a href="products.html?category=kitchen" class="nav-link">Kitchen Appliances</a>
+          <div class="mega-menu">
+            <div class="mega-intro">
+              <span>DISCOVER ATMOCE</span>
+              <h3>Kitchen Appliances</h3>
+              <p>Explore appliances designed for your everyday kitchen.</p>
+              <a href="products.html?category=kitchen">Explore All Kitchen</a>
+            </div>
+            <div class="mega-links" id="kitchenMega"></div>
+            <div class="mega-photo">
+              <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=600&q=75" alt="Modern kitchen" loading="lazy" decoding="async">
+              <div><small>ATMOCE COLLECTION</small><h3>Make Every Moment Better.</h3></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="products.html?category=home" class="nav-link">Home Appliances</a>
+          <div class="mega-menu">
+            <div class="mega-intro">
+              <span>DISCOVER ATMOCE</span>
+              <h3>Home Appliances</h3>
+              <p>Comfort and convenience for modern homes.</p>
+              <a href="products.html?category=home">Explore All Home</a>
+            </div>
+            <div class="mega-links" id="homeMega"></div>
+            <div class="mega-photo">
+              <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=600&q=75" alt="Modern living room" loading="lazy" decoding="async">
+              <div><small>ATMOCE COLLECTION</small><h3>Comfort For Modern Living.</h3></div>
+            </div>
+          </div>
+        </div>
+
+        <a href="products.html" class="nav-link active">All Products</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="index.html#contact" class="nav-link">Contact Us</a>
+      </nav>
+
+      <a href="index.html#contact" class="nav-contact">Get In Touch</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html#home">Home</a>
+      <button class="mobile-category" data-target="mobileKitchen">Kitchen Appliances <span>+</span></button>
+      <div class="mobile-submenu" id="mobileKitchen"></div>
+      <button class="mobile-category" data-target="mobileHome">Home Appliances <span>+</span></button>
+      <div class="mobile-submenu" id="mobileHome"></div>
+      <a href="products.html">All Products</a>
+      <a href="about.html">About Us</a>
+      <a href="index.html#contact">Contact Us</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section catalogue-page" style="background: var(--light); padding-top: 60px;">
+      <div class="catalogue-ambient" aria-hidden="true"></div>
+      <div class="section-heading">
+        <div>
+          <span class="section-tag">COMPLETE CATALOGUE</span>
+          <h1>Discover what’s <em>possible.</em></h1><p class="catalogue-lead">Explore home and kitchen essentials created for modern everyday living.</p>
+        </div>
+        <div class="filter-tabs" id="filterTabs">
+          <button class="filter-btn active" data-filter="all">All Products</button>
+          <button class="filter-btn" data-filter="kitchen">Kitchen Appliances</button>
+          <button class="filter-btn" data-filter="home">Home Appliances</button>
+        </div>
+      </div>
+
+      <div class="product-grid-4" id="allProductsGrid"></div>
+    </section>
+  </main>
+
+ <footer class="footer">
+    <div class="footer-main footer-main-3col">
+      <div class="footer-brand">
+        <a href="index.html#home" class="logo footer-logo">
+          <span class="logo-name">ATMOCE<small>APPLYING INNOVATION</small></span>
+        </a>
+        <p>Bringing thoughtful innovation and modern living together.</p>
+        <p class="footer-hq-text">
+          <strong>Global Headquarters:</strong> 06 Midview City, 22 Sin Ming Ave, Singapore 573969
+        </p>
+        <p class="footer-address">
+          <strong>Regional Office:</strong> Giriraj Enterprise / Pravin Electric Store, Azad Chowk, Post Office Road, Junagadh, Gujarat - 362001.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Explore</h4>
+        <a href="index.html#home">Home</a>
+        <a href="products.html?category=kitchen">Kitchen Appliances</a>
+        <a href="products.html?category=home">Home Appliances</a>
+        <a href="products.html">All Products</a>
+        <a href="about.html">About ATMOCE</a>
+      </div>
+
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <a href="index.html#contact">Service Support</a>
+        <a href="https://wa.me/919898123322" target="_blank" rel="noopener">WhatsApp Support</a>
+        <a href="https://wa.me/917016472871" target="_blank" rel="noopener">WhatsApp Sales</a>
+        <a href="mailto:atmoce.india@gmail.com">atmoce.india@gmail.com</a>
+        <a href="tel:+919898123322">+91 9898123322</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> ATMOCE. All Rights Reserved.</p>
+      <p>APPLYING INNOVATION</p>
+    </div>
+  </footer>
+
+  <div class="product-modal" id="productModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">×</button>
+      <img id="modalImage" src="" alt="Product">
+      <div>
+        <span>ATMOCE COLLECTION</span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <div class="modal-btn-group">
+          <a id="modalEnquiry" href="mailto:atmoce.india@gmail.com" class="anim-btn btn-mail">Email Enquiry</a>
+          <a id="modalWhatsapp" href="https://wa.me/919898123322" target="_blank" rel="noopener" class="anim-btn btn-wa">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
